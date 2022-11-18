@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+menu {
+  padding: 0 50px;
+  width: 100%;
+  background-color: rgb(99, 99, 182);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+menu ul {
+  display: flex;
+}
+
+menu ul li {
+  list-style: none;
+  font-size: 28px;
+  padding: 30px;
+}
+
+.fa-bars {
+  font-size: 35px;
+  display: none;
+}
+
+.box {
+  background-color: bisque;
+  padding: 30px;
+  width: 100%;
+}
+
+.main_input #person_name,
+#person_age {
+  padding: 20px;
+  font-size: 20px;
+  width: 40%;
+}
+
+.box .btn {
+  padding: 20px;
+  width: 15%;
+  margin-left: 15px;
+  background-color: blueviolet;
+}
+
+/* .box1 {
+  width: 300px;
+  height: 300px;
+  background-color: antiquewhite;
+  padding: 20px;
+}
+
+.box1 .Name {
+  background-color: yellow;
+  padding: 30px;
+  font-size: 30px;
+} */
+
+/* @media screen and (max-width: 800px) {
+  .box {
+    width: 800px;
+  }
+
+  .box #person_name {
+    width: 100%;
+  }
+
+  .box .btn {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .box1 {
+    display: none;
+  }
+} */
+
+@media screen and (max-width: 990px) {
+  menu {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  menu ul {
+    display: none;
+  }
+
+  .fa-bars {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .box {
+    display: flex;
+    justify-content: center;
+  }
+  .main_input {
+    width: 75%;
+  }
+
+  .main_input #person_name,
+  #person_age {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .box {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .main_input {
+    width: 100%;
+  }
+
+  .main_input #person_name,
+  #person_age {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .box .btn {
+    width: 100%;
+    margin-left: 0;
+    border: 10px red solid;
+  }
+}
