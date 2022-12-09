@@ -1,0 +1,15 @@
+.container {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+form {
+  width: 300px;
+  height: 300px;
+  padding: 30px 70px;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
