@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.containerInput {
+  width: 70%;
+  height: 100px;
+  background-color: brown;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.containerInput input {
+  width: 70%;
+  padding: 10px;
+  margin-right: 20px;
+  outline: none;
+  font-size: 16px;
+}
+
+.containerInput button {
+  padding: 10px;
+}
+
+.containerInput button:hover {
+  cursor: pointer;
+}
+
+.containerList {
+  width: 70%;
+  margin-top: 30px;
+  position: relative;
+  left: 50%;
+  background-color: rgb(107, 129, 194);
+  transform: translateX(-50%);
+  padding: 40px;
+}
+
+.listItems {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(61, 61, 128);
+  color: aliceblue;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+}
