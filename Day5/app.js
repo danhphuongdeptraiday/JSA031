@@ -1,14 +1,3 @@
-// let s = "";
-// for (let i = 1; i <= 5; i++) {
-//   for (let j = 0; j < i; j++) {
-//     s = s + "1";
-//   }
-//   //   console.log("Giá trị của s ở dòng thứ " + i + " = " + s);
-//   s = s + "\n";
-// }
-
-// console.log(s);
-
 // let t = "1";
 // console.log("t = " + t);
 // t = t + "1";
@@ -37,6 +26,8 @@
 
 // let n = Number(prompt("Input n from 4 -> 20: "));
 // findEven(n);
+
+// console.log(listEvenNumber);
 // for (i of listEvenNumber) {
 //   listNumber.innerHTML = listNumber.innerHTML + i + " ";
 // }
@@ -60,32 +51,45 @@
 // // console.log("Phuong");
 // console.log("Nguyễn");
 
-let t = setInterval(function () {
-  console.log(1);
-}, 1000);
+// Bài 3
 
-clearInterval(t);
+// let s = "";
+// for (let i = 1; i <= 5; i++) {
+//   for (let j = 0; j < i; j++) {
+//     s = s + "1";
+//   }
+//   //   console.log("Giá trị của s ở dòng thứ " + i + " = " + s);
+//   s = s + "\n"; // Xuống dòng từng hàng
+// }
 
-// setTimeout(function () {
-//   console.log(2);
-// }, 2000);
+// console.log(s);
 
-// setTimeout(function () {
-//   console.log(3);
-// }, 3000);
+// let t = setInterval(function () {
+//   console.log(1);
+// }, 1000);
 
-let username = document.getElementById("username");
-let password = document.getElementById("password");
+// clearInterval(t);
 
-document.getElementById("btn").addEventListener("click", function (e) {
-  e.preventDefault();
+// // setTimeout(function () {
+// //   console.log(2);
+// // }, 2000);
 
-  localStorage.setItem("username", username.value);
-  localStorage.setItem("password", password.value);
+// // setTimeout(function () {
+// //   console.log(3);
+// // }, 3000);
 
-  console.log(username.value);
-  console.log(password.value);
+// let username = document.getElementById("username");
+// let password = document.getElementById("password");
 
-  username.value = "";
-  password.value = "";
-});
+// document.getElementById("btn").addEventListener("click", function (e) {
+//   e.preventDefault();
+
+//   localStorage.setItem("username", username.value);
+//   localStorage.setItem("password", password.value);
+
+//   console.log(username.value);
+//   console.log(password.value);
+
+//   username.value = "";
+//   password.value = "";
+// });
